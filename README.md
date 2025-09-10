@@ -1,6 +1,6 @@
 # Análise Comparativa de Lojas
 
-## 📊 Descrição
+## Descrição
 
 Este projeto tem como objetivo realizar uma análise exploratória de dados de quatro lojas distintas, fornecendo informações relevantes para apoiar uma tomada de decisão estratégica: **qual loja deve ser vendida**.
 
@@ -8,7 +8,7 @@ A análise considera variáveis como faturamento total, média de avaliação do
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Python
 - Pandas
@@ -18,7 +18,7 @@ A análise considera variáveis como faturamento total, média de avaliação do
 
 ---
 
-## 📌 Principais Etapas da Análise
+## Principais Etapas da Análise
 
 - Cálculo do faturamento total de cada loja
 - Verificação das categorias e produtos mais populares
@@ -30,7 +30,7 @@ A análise considera variáveis como faturamento total, média de avaliação do
 
 ---
 
-## 🧾 Relatório Final
+## Relatório Final
 
 Ao final do notebook, é apresentado um relatório resumido com todos os principais achados da análise e a recomendação sobre qual loja seria mais vantajosa para venda, com base em critérios de desempenho e custo-benefício.
 
