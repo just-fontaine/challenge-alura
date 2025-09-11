@@ -1,37 +1,64 @@
-# Análise Comparativa de Lojas
+# Análise Comparativa de Lojas para tomada de decisão
 
-## Descrição
+> Análise exploratória de dados de quatro lojas para identificar a unidade com menor desempenho e recomendar sua venda, baseando a decisão em métricas de faturamento, avaliação de clientes e custos de frete.
 
-Este projeto tem como objetivo realizar uma análise exploratória de dados de quatro lojas distintas, fornecendo informações relevantes para apoiar uma tomada de decisão estratégica: **qual loja deve ser vendida**.
+<br>
 
-A análise considera variáveis como faturamento total, média de avaliação dos clientes, produtos mais e menos vendidos e custo total com frete.
+![Gráfico de Faturamento por Loja](visualizacoes/grafico_barras_lojas.png)
+
+---
+
+## Sobre o Projeto
+
+Em um cenário de otimização de recursos, uma empresa precisa decidir qual de suas quatro lojas deve ser vendida. Este projeto fornece uma análise de dados completa para apoiar essa decisão estratégica, transformando dados de vendas, avaliações e fretes em uma recomendação clara e baseada em evidências.
+
+---
+
+## 💡 A Recomendação Final
+
+Após a análise detalhada dos dados, a recomendação é a venda da **Loja 1**. Os principais fatores que levaram a esta conclusão foram:
+
+*   **Menor Faturamento:** Apresentou o menor faturamento total entre as quatro unidades.
+*   **Pior Avaliação Média:** Possui a nota de avaliação mais baixa dada pelos clientes.
+*   **Alto Custo de Frete:** Demonstrou um custo de frete proporcionalmente alto em relação às suas vendas.
+
+O notebook detalha o passo a passo e os gráficos que sustentam esta recomendação.
 
 ---
 
 ## Tecnologias Utilizadas
 
-- Python
-- Pandas
-- Seaborn
-- Matplotlib
-- Jupyter Notebook
+- **Linguagem:** Python
+- **Bibliotecas:** Pandas, Matplotlib, Seaborn
+- **Ambiente:** Jupyter Notebook
 
 ---
 
-## Principais Etapas da Análise
+## Como executar
 
-- Cálculo do faturamento total de cada loja
-- Verificação das categorias e produtos mais populares
-- Cálculo da média de avaliação dos clientes
-- Identificação dos produtos mais e menos vendidos
-- Análise do custo médio de frete por loja
-- Geração de gráficos e visualizações para embasar os resultados
-- Conclusão com recomendação baseada nos dados
+```bash
+# 1. Clone o repositório
+git clone https://github.com/henry-mesquita/desafio-etl-alura.git
+
+# 2. Navegue até o diretório
+cd desafio-etl-alura
+
+# 3. (Opcional, mas recomendado) Crie e ative um ambiente virtual
+python -m venv venv
+source venv/bin/activate # No Windows: venv\Scripts\activate
+
+# 4. Instale as dependências
+pip install -r requirements.txt
+
+# 5. Inicie o Jupyter Notebook
+jupyter notebook
+```
+
+Agora, basta abrir o challenge_alura.ipynb e executar as células.
 
 ---
 
-## Relatório Final
+## Autor
+Desenvolvido por **Henry Mesquita**.
 
-Ao final do notebook, é apresentado um relatório resumido com todos os principais achados da análise e a recomendação sobre qual loja seria mais vantajosa para venda, com base em critérios de desempenho e custo-benefício.
-
----
+*Este projeto foi originalmente criado como parte do Challenge de Ciência de Dados da Oracle em conjunto com a Alura.*
