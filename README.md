@@ -14,7 +14,7 @@ Em um cenário de otimização de recursos, uma empresa precisa decidir qual de 
 
 ---
 
-## 💡 A Recomendação Final
+## A Recomendação Final
 
 Após a análise detalhada dos dados, a recomendação é a venda da **Loja 1**. Os principais fatores que levaram a esta conclusão foram:
 
